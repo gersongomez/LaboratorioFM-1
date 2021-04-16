@@ -376,7 +376,7 @@ public class Mantenimiento_Dvd extends javax.swing.JInternalFrame {
                 dvdModificar.setId_Dvd(Integer.parseInt(txtId.getText()));
                 dvdModificar.setNombre_Dvd(txtNombre.getText());
                 dvdModificar.setAutor_Dvd(txtAutor.getText());
-                dvdModificar.setGenero_Dvd(txtAutor.getText());
+                dvdModificar.setGenero_Dvd(txtGenero.getText());
                 dvdModificar.setExistencias_Dvd(Integer.parseInt(txtExistencias.getText()));
                 limpiar();
                 pisosDAO.update(dvdModificar);
